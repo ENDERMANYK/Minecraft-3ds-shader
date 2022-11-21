@@ -27,4 +27,4 @@ Floating-point constant registers are floating-point registers that store consta
 These registers output data that has been processed by vertex shaders into a later stage of the graphics pipeline.
 
 # Building
-You can use nintendo 3ds devkit or [picasso](https://github.com/devkitPro/picasso) from devkitpro. If you decided use picasso as assembler, make sure following their [instructions](https://github.com/devkitPro/picasso/blob/master/Manual.md) change the code manually
+You can use nintendo 3ds devkit or [picasso](https://github.com/devkitPro/picasso) from devkitpro. If you decided use picasso as assembler, make sure use the file and instructions in [homebrew](https://github.com/ENDERMANYK/Minecraft-3ds-shader/blob/main/homebrew/README.md) folder.
