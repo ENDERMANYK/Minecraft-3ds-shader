@@ -4,33 +4,33 @@
 // Handcoded by ENDERMANYK
 
 // Uniforms
-#pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )
-#pragma bind_symbol ( WORLDVIEW , c4 , c7 )
-#pragma bind_symbol ( PROJ , c8 , c11 )
-#pragma bind_symbol ( FOG_COLOR , c12 )
-#pragma bind_symbol ( FOG_CONTROL , c13 )
-#pragma bind_symbol ( RENDER_DISTANCE , c14 )
-#pragma bind_symbol ( VIEWPORT_DIMENSION , c15 )
-#pragma bind_symbol ( CURRENT_COLOR , c16 )
-#pragma bind_symbol ( CHUNK_ORIGIN_AND_SCALE , c17 )
-#pragma bind_symbol ( VIEW_POS , c18 )
-#pragma bind_symbol ( FAR_CHUNKS_DISTANCE , c19 )
+#pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )  //uniform MAT4 WORLDVIEWPROJ; 
+#pragma bind_symbol ( WORLDVIEW , c4 , c7 )      //uniform MAT4 WORLDVIEW;
+#pragma bind_symbol ( PROJ , c8 , c11 )          //uniform MAT4 PROJ;
+#pragma bind_symbol ( FOG_COLOR , c12 )          //uniform vec4 FOG_COLOR;
+#pragma bind_symbol ( FOG_CONTROL , c13 )        //uniform vec2 FOG_CONTROL;
+#pragma bind_symbol ( RENDER_DISTANCE , c14 )    //uniform float RENDER_DISTANCE;
+#pragma bind_symbol ( VIEWPORT_DIMENSION , c15 ) //uniform vec2 VIEWPORT_DIMENSION;
+#pragma bind_symbol ( CURRENT_COLOR , c16 )      //uniform vec4 CURRENT_COLOR;
+#pragma bind_symbol ( CHUNK_ORIGIN_AND_SCALE , c17 )//uniform POS4 CHUNK_ORIGIN_AND_SCALE;
+#pragma bind_symbol ( VIEW_POS , c18 )           //uniform POS3 VIEW_POS;
+#pragma bind_symbol ( FAR_CHUNKS_DISTANCE , c19 )//uniform float FAR_CHUNKS_DISTANCE;
 
 // Inputs, attribute
-#pragma bind_symbol ( aPosition.xyz , v0 )
-#pragma bind_symbol ( aColor.xyzw , v1 )
-#pragma bind_symbol ( aTexCoord.xy , v2 )
-#pragma bind_symbol ( bTexCoord.xy , v3 )
+#pragma bind_symbol ( aPosition.xyz , v0 ) //attribute POS4 POSITION;
+#pragma bind_symbol ( aColor.xyzw , v1 )   //attribute vec4 COLOR;
+#pragma bind_symbol ( aTexCoord.xy , v2 )  //attribute vec2 TEXCOORD_0;
+#pragma bind_symbol ( bTexCoord.xy , v3 )  //attribute vec2 TEXCOORD_1;
 
 // Booleans
-#pragma bind_symbol ( ENABLE_FOG , b1 , b1 )
+#pragma bind_symbol ( ENABLE_FOG , b1 , b1 ) //bool
 #pragma bind_symbol ( ALLOW_FADE , b2 , b2 )
 
 // Outputs, varing
-#pragma output_map ( position , o0 )
-#pragma output_map ( color , o1 )
-#pragma output_map ( texture0 , o2 )
-#pragma output_map ( texture1 , o3 )
+#pragma output_map ( position , o0 )  //gl_Position
+#pragma output_map ( color , o1 )     //varing vec4 color;
+#pragma output_map ( texture0 , o2 )  //varing vec2 uv0;
+#pragma output_map ( texture1 , o3 )  //varing vec2 uv1;
 
 def c32, 1.000000, -1.000000, 1.000000, 1.000000
 def c33, 0.003922, 0.003922, 0.003922, 0.003922
