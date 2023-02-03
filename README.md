@@ -1,6 +1,6 @@
 # Minecraft-3ds-shader
 
-This repository holds a discontinued version of Minecarft default in-game shader file
+This repository holds a discontinued version of Minecraft default in-game shader file
 
 # Introduction
 
