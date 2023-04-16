@@ -1,3 +1,7 @@
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ENDERMANYK/Minecraft-3ds-shader?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/ENDERMANYK/Minecraft-3ds-shader?style=for-the-badge)
+![Github Release](https://img.shields.io/github/downloads/ENDERMANYK/Minecraft-3ds-shader/total?style=for-the-badge)
+
 # Minecraft-3ds-shader
 
 This repository holds a discontinued version of Minecraft default in-game shader file
