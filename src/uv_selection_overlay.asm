@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // uv_selection_overlay.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Uniforms
 #pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )

@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // entity_item_in_hand.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Uniforms
 #pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )

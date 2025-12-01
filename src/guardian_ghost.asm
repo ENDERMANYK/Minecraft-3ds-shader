@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // guardian_ghost.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Uniforms
 #pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )

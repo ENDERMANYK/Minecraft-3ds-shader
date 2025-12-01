@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // renderchunk.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Uniforms
 #pragma bind_symbol ( WORLDVIEWPROJ , c0 , c3 )  //uniform MAT4 WORLDVIEWPROJ; 

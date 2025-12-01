@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // uv_blend.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Inputs, attribute
 #pragma bind_symbol ( aPosition.xyz , v0 )

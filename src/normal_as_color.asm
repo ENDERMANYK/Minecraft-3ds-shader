@@ -1,7 +1,7 @@
 // Minecraft - New Nintendo 3DS Edition 
 // normal_as_color.shbin
 
-// Handcoded by ENDERMANYK
+
 
 // Inputs, attribute
 #pragma bind_symbol ( aPosition.xyzw , v0 )
